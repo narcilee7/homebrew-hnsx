@@ -11,7 +11,7 @@
 class Hnsx < Formula
   desc "Operator CLI for the HnsX Harness-as-a-Service platform"
   homepage "https://hnsx.dev"
-  head "https://github.com/narcilee7/HnsX.git"
+  head "https://github.com/narcilee7/HnsX.git", branch: "main"
 
   depends_on "go" => :build
 
